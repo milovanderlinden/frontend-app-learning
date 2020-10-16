@@ -45,10 +45,26 @@ const messages = defineMessages({
     defaultMessage: 'Download my certificate',
     description: 'Button to download the course certificate',
   },
+  endOfCourseHeader: {
+    id: 'courseExit.endOfCourseHeader',
+    defaultMessage: 'You’ve reached the end of the course!',
+  },
+  endOfCourseDescription: {
+    id: 'courseExit.endOfCourseDescription',
+    defaultMessage: 'Unfortunately, you are not currently eligible for a certificate. You need to receive a passing grade to be eligible for a certificate.',
+  },
   idVerificationSupportLink: {
     id: 'courseExit.idVerificationSupportLink',
     defaultMessage: 'Learn more about ID verification',
     description: 'Link to an article about identity verification',
+  },
+  nextButtonComplete: {
+    id: 'learn.sequence.navigation.complete.button', // for historical reasons
+    defaultMessage: 'Complete the course',
+  },
+  nextButtonEnd: {
+    id: 'courseExit.nextButton.endOfCourse',
+    defaultMessage: 'Next (end of course)',
   },
   profileLink: {
     id: 'courseExit.profileLink',
@@ -82,6 +98,10 @@ const messages = defineMessages({
     id: 'courseExit.viewCoursesButton',
     defaultMessage: 'View my courses',
     description: 'Button to redirect user to their course dashboard',
+  },
+  viewGradesButton: {
+    id: 'courseExit.viewGradesButton',
+    defaultMessage: 'View grades',
   },
 });
 
